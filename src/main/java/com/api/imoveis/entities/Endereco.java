@@ -70,6 +70,14 @@ public class Endereco {
         this.cidade = cidade;
     }
 
+    public Pessoa getPessoa() {
+        return pessoa;
+    }
+
+    public void setPessoa(Pessoa pessoa) {
+        this.pessoa = pessoa;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
