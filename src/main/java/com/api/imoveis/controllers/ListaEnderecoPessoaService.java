@@ -14,7 +14,7 @@ public class ListaEnderecoPessoaService {
     @Autowired
     private EnderecoServiceLista repository;
 
-    @GetMapping("/endereco")
+    @GetMapping("/enderecos")
     public List<Endereco> listar(){
         return repository.listar();
     }
